@@ -1,18 +1,15 @@
 {
-  "name": "test",
+  "name": "express-learn",
   "version": "1.0.0",
-  "description": "学习npm",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js"
+    "start": "nodemon index.js"
   },
-  "author": "yali",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "uniq": "^1.0.1"
-  },
-  "devDependencies": {
-    "less": "^4.2.0"
+    "express": "^4.18.2"
   }
 }

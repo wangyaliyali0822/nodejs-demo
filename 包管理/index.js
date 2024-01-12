@@ -1,3 +1,4 @@
+// require 导入包有自动向上寻找的特性
 const uniq = require('uniq');
 
 // 需要在package.json中设置 "type": "module" 
